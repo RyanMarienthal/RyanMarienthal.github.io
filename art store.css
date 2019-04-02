@@ -5,7 +5,7 @@ display: inline-block;
 }
 
 title{
-font-size: 110;
+font-size: 125;
   color:black;
   font-family: Arial;
   width:74%;
@@ -14,11 +14,20 @@ font-size: 110;
   position: fixed;
   top:-10;
   padding-top: 0;
+  text-align: center;
 }
 
 #A{
-  width:105px;
-   height:80px;
+  width:160px;
+   height:135px;
     position:fixed;
-     top:10;
+     top:-15;
+     padding-right: 100px;
+}
+
+.menu{
+  display:inline-block;
+  width: 34%;
+  position:fixed;
+  top: 150;
 }
