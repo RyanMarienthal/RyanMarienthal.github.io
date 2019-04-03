@@ -30,6 +30,7 @@ title{
 -moz-border-radius: 0;
 -moz-appearance: button;
 padding: 1vw;
+background-color: lightgray;
 
 }
 button:active{
