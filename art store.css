@@ -37,6 +37,8 @@ button:active{
   background-color: darkgray;
 }
 
-button:hover{
-  background-color: darkgray;
+
+
+button:empty{
+  background-color: gray;
 }
