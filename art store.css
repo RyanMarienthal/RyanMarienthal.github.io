@@ -8,15 +8,14 @@ title{
 font-size: 100;
   color:black;
   font-family: Arial;
-  width:50%;
-  height:100px;
+  width:50vw;
+  height:11vw;
   text-align:center;
   position: fixed;
   top:-10;
   padding-top: 0;
   text-align: center;
-  white-space: nowrap;
-  margin-left: 160px;
+  margin-left: 10%;
 }
 
 #A{
@@ -31,7 +30,9 @@ font-size: 100;
   width: 34%;
   position:fixed;
   top: 150;
-  border-radius: 0px;
+  -webkit-border-radius: 0px;
   -webkit-appearance:button;
+-moz-border-radius: 0;
+-moz-appearance: button;
 
 }
