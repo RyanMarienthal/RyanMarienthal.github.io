@@ -5,27 +5,22 @@ display: inline-block;
 }
 
 title{
-font-size: 100;
+  font-size: 25vmin;
   color:black;
   font-family: Arial;
-  width:50vw;
-  height:11vw;
   text-align:center;
   position: fixed;
   top:-10;
-  padding-top: 0;
-  text-align: center;
-  margin-left: 10%;
 }
 
 #A{
-  width:160px;
-  height:135px;
+  width:170px;
+  height:145px;
   margin-top: -15px;
-
+    position: fixed;
 }
 
-.menu{
+.btn{
   display:inline-block;
   width: 34%;
   position:fixed;
@@ -34,5 +29,13 @@ font-size: 100;
   -webkit-appearance:button;
 -moz-border-radius: 0;
 -moz-appearance: button;
+padding: 1vw;
 
+}
+button:active{
+  background-color: darkgray;
+}
+
+button:hover{
+  background-color: darkgray;
 }
