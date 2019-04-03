@@ -15,15 +15,15 @@ font-size: 100;
   top:-10;
   padding-top: 0;
   text-align: center;
-
+  white-space: nowrap;
+  margin-left: 160px;
 }
 
 #A{
   width:160px;
-   height:135px;
-    position:fixed;
-     top:-15;
-     padding-right: 100px;
+  height:135px;
+  margin-top: -15px;
+
 }
 
 .menu{
@@ -33,4 +33,5 @@ font-size: 100;
   top: 150;
   border-radius: 0px;
   -webkit-appearance:button;
+
 }
