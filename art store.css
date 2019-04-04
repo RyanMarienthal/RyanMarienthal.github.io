@@ -5,17 +5,21 @@ display: inline-block;
 }
 
 title{
-  font-size: 25vmin;
+  font-size: 8vw;
+  white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ max-width: 50vw;
   color:black;
   font-family: Arial;
-  text-align:center;
   position: fixed;
-  top:-10;
+  left: 25vw;
+  text-align:center;
 }
 
 #A{
-  width:170px;
-  height:145px;
+  width:10vw;
+  height:10vw;
   margin-top: -15px;
     position: fixed;
 }
@@ -23,8 +27,9 @@ title{
 .btn{
   display:inline-block;
   width: 34%;
-  position:fixed;
-  top: 150;
+  position:absolute;
+  left: 170px;
+  top:10vw;
   -webkit-border-radius: 0px;
   -webkit-appearance:button;
 -moz-border-radius: 0;
