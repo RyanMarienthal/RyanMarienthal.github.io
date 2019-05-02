@@ -42,7 +42,7 @@ title{
   left: 170px;
   top:10vw;
   -webkit-border-radius: 0px;
-  -webkit-appearance:button;
+  -webkit-appearance:square-button;
   -moz-border-radius: 0;
   -moz-appearance: button;
   padding: 1vw;
