@@ -9,23 +9,54 @@
 </head>
 
 <body>
-  <div id="hea"></div>
+  <div id="hea" ></div>
   <div id="top">
     <img src="new logo.png" id="A" class="logo">
     <title class="logo">The Art Store</title>
     </div>
-    <button class="btn" style="left:2%; width:31%; margin-left: 2%;">Home</button>
-    <button class="btn" style="left:35%; width:31%;">Search</button>
-    <button class="btn" style="left:66%; width:31%; margin-right: 2%;">Artists</button>
+    <button class="btn" id="Home" onclick="homeShow(); searchGone(); artistsGone();">Home</button>
+    <button class="btn" id="search" onclick="homeGone(); searchShow(); artistsGone();">Search</button>
+    <button class="btn" id="artists" onclick="homeGone(); searchGone(); artistsShow();">Artists</button>
+
+<div id="homeButton">
+<p>Welcome to The Art Store</p>
+</div>
+
+<div id="searchButton">
+<p>Heres some art</p>
+</div>
+
+<div id="artistsButton">
+<p>heres some arititis</p>
+</div>
 
 
 
+    <script>
+      function homeGone(){
+       document.getElementById("homeButton").style.display = "none";
+    }
 
+    function homeShow(){
+     document.getElementById("homeButton").style.display = "inline";
+  }
 
+  function searchGone(){
+   document.getElementById("searchButton").style.display = "none";
+}
 
+function searchShow(){
+ document.getElementById("searchButton").style.display = "inline";
+}
 
+function artistsGone(){
+ document.getElementById("artistsButton").style.display = "none";
+}
 
-
+function artistsShow(){
+document.getElementById("artistsButton").style.display = "inline";
+}
+    </script>
 </body
 
 

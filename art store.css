@@ -1,10 +1,9 @@
 .logo{
-display: inline-block;
-background: url(background.png);
+  display: inline-block;
+  background: url(background.png);
 
 
 }
-
 title{
   font-size: 8vw;
   white-space: nowrap;
@@ -14,43 +13,74 @@ title{
   font-family: Arial;
   position: fixed;
   left: 25vw;
+  top: -0.5vw;
   text-align:center;
+    padding: 10px;
 
 }
 #hea{
   position: fixed;
-  width: 100%;
-  height: 9.5vw;
+  top: -20px;
+  height: 10vw;
+  height: 11vw;
+    width: 100vw;
   background-color: #ffc266;
-}
 
+}
 #A{
-  width:10vw;
-  height:9vw;
+  width:12vw;
+  height:10vw;
     position: fixed;
+    top: -0.5vw;
 
 }
-
 .btn{
   display:inline-block;
   width: 34%;
+  height: 5vw;
   position:absolute;
   left: 170px;
   top:10vw;
   -webkit-border-radius: 0px;
   -webkit-appearance:button;
--moz-border-radius: 0;
--moz-appearance: button;
-padding: 1vw;
-background-color: lightgray;
+  -moz-border-radius: 0;
+  -moz-appearance: button;
+  padding: 1vw;
+  font-size: 2vw;
 
 }
 button:active{
   background-color: darkgray;
 }
-
-
-
 button:empty{
   background-color: gray;
+}
+#home{
+  left:2%;
+  width:31%;
+  margin-left: 2%;
+}
+#search{
+  left:35%;
+  width:31%;
+}
+#artists{
+  left:66%;
+   width:31%;
+   margin-right: 2%;
+}
+#homeButton{
+  position: fixed;
+  top: 15vw;
+
+}
+#searchButton{
+  position: fixed;
+  top: 15vw;
+  display: none;
+}
+#artistsButton{
+  position: fixed;
+  top: 15vw;
+  display: none;
 }
