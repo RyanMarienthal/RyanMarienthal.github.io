@@ -21,14 +21,14 @@ title{
 #hea{
   position: fixed;
   top: -20px;
-  height: 11vw;
+  height: 11.5vw;
     width: 100vw;
   background-color: #ffc266;
 
 }
 #A{
   width:12vw;
-  height:11vw;
+  height:10vw;
     position: fixed;
     top: -0.5vw;
 
@@ -40,7 +40,7 @@ title{
   position:absolute;
   left: 170px;
   top:10vw;
-  -webkit-border-radius: 0px !important;
+  -webkit-appearance: rectangle;
   -webkit-appearance:square-button;
   -moz-border-radius: 0;
   -moz-appearance: button;
